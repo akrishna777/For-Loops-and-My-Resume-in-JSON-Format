@@ -1,0 +1,54 @@
+Task :For the given JSON iterate over all for loops (for, for in, for of, forEach)
+
+Code:myJson = `
+{
+    "name": "Manish",
+    "score": 9.8,
+    "course": "Full-Stack Development",
+    "isRegistered": true,
+    "Mobile": 9889967865,
+    "Address": {
+        "Street": "203, Kutchery Road, Mylapore",
+        "City": "Chennai",
+        "State": "Tamil Nadu",
+        "Country": "India",
+        "Pin-Code": "600004"
+    }
+}
+`
+let myJson2 = JSON.parse(myJson);
+
+// For in Loop to loop over parsed object:
+for (let key in myJson2) {
+    console.log(key, ":", myJson2[key])
+}
+
+Description: Here we have created a json file an then parsed it to a javascript object using JSON.parse. If we want to iterate over the object the only way to do it is using the for in loop. The traditional for loop will not work for objects in javascript.
+forEachwill give you TypeError: items.forEach is not a function.
+for..of loop will give you TypeError: myJson2 is not iterable.
+
+To overcome this hassle, later in ES8, two other methods were added, Object.entries() and Object.values() and Object.keys(). These methods convert the object into an array and then use array looping methods to loop over that array.
+
+
+Code: 
+let arr1 = Object.keys(myJson2)
+let arr2 = Object.values(myJson2)
+let arr3 = Object.entries(myJson2)
+
+
+//Traditional For Loop by combination of Object.keys and Object.values Methods
+for (let i = 0; i < arr1.length; i++) {
+    console.log(arr1[i], ":", arr2[i])
+}
+
+//ForEach Loop by combination of Object.keys and Object.values Methods
+arr1.forEach((key, value) => {
+    console.log(key, ":", arr2[value]);
+});
+
+// ForOf loop can be used only by using Object.Entries Method
+for (key of arr3) {
+    console.log(key)
+}
+
+Description: Here we have initialized 3 arrays in variable arr1, arr2, arr3 and stored values in them from the Object myJson2. Then we can use the Normal For loop, ForOf loop and ForEach Loop on the arrays created.
