@@ -1,0 +1,70 @@
+Task : Create your own resume data in JSON format:
+
+Code:
+
+{
+    "name": "Aravind",
+    "Address": {
+        "House No./Name": "Kadavannur House",
+        "Area": "Kandanassery",
+        "Distt": "Thrissur",
+        "State": "Kerala",
+        "Pin-Code": 680602
+    },
+    "Mobile No.": 7309454620,
+    "Email": "akaravindk59@gmail.com",
+    "Objective": "To work in a firm with a professional & supportive, work driven environment where I can utilize and apply my knowledge and skills which would enable me to grow while fulfilling organizational goals to the best of my abilities.",
+    "Academic Qualifications": {
+        "PGDM (Marketing & IT)": "G.L. Bajaj Institute of Management & Research, Greater Noida (U.P.)",
+        "BCom": "Lucknow University",
+        "Class 12": "Aditya Birla Public School, Jagdishpur (U. P.)",
+        "Class 10": "Aditya Birla Public School, Jagdishpur (U. P.)"
+    },
+    "Work Experience": {
+        "Company": "Inventurus Knowledge Solution Pvt. Ltd. (Mumbai)",
+        "Designation": "Revenue Cycle Representative (Management Trainee) ,Accounts Receivables",
+        "Duration": "July 2021 to August 2021"
+    },
+    "Skills": [
+        "MS-Office",
+        "Python",
+        "Java",
+        "JavaScript",
+        "Web-Development",
+        "Presentation & Communication Skills"
+    ],
+    "Internships": "Internship at Investosure Private Ltd. From 9th May, 2020 to 9th July, 2020",
+    "Value-Added Courses & Certifications": [
+        "Microsoft Office Certification",
+        "Digital Marketing Certification from MSME",
+        "Marketing Analytics Certification",
+        "Online B2B Business Development Course – Udemy"
+    ],
+    "Strengths / Key Attributes": [
+        "Hard Working & Sincere",
+        "Diligent & Quick Learner",
+        "Good Communication Skill",
+        "Ability to work under pressure",
+        "Focused and dedicated Attitude"
+    ],
+    "Hobbies & Interests": [
+        "Cricket, Billiards and Table Tennis",
+        "Watching Movies",
+        "Cooking",
+        "Yoga & Meditation",
+        "Reading Books",
+        "Web-Development"
+    ],
+    "Personal Details": {
+        "Date of Birth": "07/05/1997",
+        "Marital Status": "Unmarried",
+        "Nationality": "Indian",
+        "Languages Known": [
+            "Hindi",
+            "English",
+            "Malayalam"
+        ],
+        "Alternate Mob. No.": 9889943849
+    },
+    "Declaration": "I hereby declare that the above-mentioned information is true to the best of my knowledge."
+}
